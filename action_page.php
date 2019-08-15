@@ -19,7 +19,18 @@ function test_input($data) {
 	return $data;
 }
 
-?> 
+?>
+    
+<?php
+echo "<h2>input:</h2>";
+echo $email;
+echo "<br>";
+echo $fName;
+echo "<br>";
+echo $lName;
+echo "<br>";
+echo $password;
+?>
 
 
 

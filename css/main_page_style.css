@@ -1,0 +1,68 @@
+
+body {
+    margin: 0; 
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png"); 
+}
+
+.top-container{
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    
+}
+
+.header{
+    padding: .5px 2px;
+    background: #555;
+    color: #f1f1f1;
+}
+
+.header_button{
+    
+}
+
+.profile_picture{
+    border-radius: 15px 50px;
+    background-postion: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    position: center;
+    
+    
+    
+}
+
+.picborder{   
+  border-radius: 25px;
+  background: #333333;
+  padding: 10px; 
+  width: 200px;
+  height: 150px;
+  box-shadow: 0px 0px 3.5px 1px #ffffe6;
+  position: relative;
+  left: 12.5px;
+  down: 50px;
+  
+    
+}
+
+.content {
+    padding: 16px;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky + content {
+    padding-top: 102px;
+}
+
+
+
+
+
