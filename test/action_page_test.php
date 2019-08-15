@@ -29,16 +29,5 @@ function test_input($data) {
 
 
 
-<!--echo "<h2>input:</h2>";
-echo $email;
-echo "<br>";
-echo $fName;
-echo "<br>";
-echo $lName;
-echo "<br>";
-echo $password;-->
-
-
-
 </body>
 </html>

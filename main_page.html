@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Falsebook</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/main_page_style.css">
+    
+    
+    
+    <body>
+        
+        
+        <div class= "header" id ="myHeader">
+            <h2>Falsebook</h2>     
+        </div>
+            
+        <h1></h1>
+            <div>
+               
+            <img src="/img/dillan.jpg"  class="picborder" alt="Upload a picture!" 
+                 style="width:200px;height:150;">
+           
+            
+            </div>
+                 
+            <div class = "content">
+            
+        </div>
+    
+        
+        <script>
+        //when the user scrolls this executes
+        window.onscroll = function() {myFunction()};
+        
+        //grabs header
+        var header = document.getElementById("myHeader");
+        
+        //grabs offset position of navbar
+        var sticky = header.offsetTop;
+        
+        //adds the sticky class to header when user reaches it's scrolling
+        //position. Removes when scroll position is left
+        function myFunction(){
+            if (window.pageYOffset > sticky){
+                header.classList.add("sticky");
+            } else {
+                header.classList.remove("sticky");
+            }
+        }
+        </script>
+    </body>
+</html>
