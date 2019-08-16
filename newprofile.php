@@ -84,6 +84,7 @@ a {
 
 <body>
 
+    
 <div class="container">
   <div class="jumbotron">
     <center><h1 style="color:white;">Falsebook</h1></center>
@@ -92,16 +93,16 @@ a {
   </div>
 </div>
     
-<form method ="post" action="/authentication/registration.php">
+    <form action="insert.php" method ="post">
   <div class="container">
     <h1>Register</h1>
     <p>Please fill in this form to create an account.</p>
     <hr>
     
-    <label for="email"><b>First Name</b></label>
+    <label for="first"><b>First Name</b></label>
     <input type="text" placeholder="Enter First Name" name="first" required>
     
-    <label for="email"><b>Last Name</b></label>
+    <label for="last"><b>Last Name</b></label>
     <input type="text" placeholder="Enter Last Name" name="last" required>
 
     <label for="email"><b>Email</b></label>
@@ -115,17 +116,13 @@ a {
     <hr>
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
-    <button type="submit" class="registerbtn">Register</button>
+    <input type="submit" class="registerbtn" name="create">
   </div>
   
   <div class="container signin">
     <p>Already have an account? <a href="#">Sign in</a>.</p>
   </div>
 </form>
-
-
-
- 
-
+       
 </body>
 </html>

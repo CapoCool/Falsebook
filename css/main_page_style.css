@@ -1,7 +1,7 @@
 
 body {
     margin: 0; 
-    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png"); 
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png"); 
 }
 
 .top-container{
@@ -13,13 +13,43 @@ body {
 
 .header{
     padding: .5px 2px;
-    background: #555;
+    background: #333333;
     color: #f1f1f1;
-}
-
-.header_button{
+    border-bottom: 2px solid black
     
 }
+
+
+.button{
+  background-color: #555; 
+  border: none;
+  color: black;
+  padding: 10px 70px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: relative;
+  left: 12.5px;
+  box-shadow: 1.5px 1.5px 3.5px 1px black;
+}
+
+
+.menu_button{
+    background-color: #333333;
+    color: white;
+    border-bottom: 2px solid #ffffcc
+}
+
+.menu_button:hover{
+    background-color: white;
+    color: black;
+}
+
 
 .profile_picture{
     border-radius: 15px 50px;
@@ -29,9 +59,6 @@ body {
     width: 200px;
     height: 150px;
     position: center;
-    
-    
-    
 }
 
 .picborder{   
@@ -40,12 +67,10 @@ body {
   padding: 10px; 
   width: 200px;
   height: 150px;
-  box-shadow: 0px 0px 3.5px 1px #ffffe6;
+  box-shadow: 0px 0px 3.5px 1px black;
   position: relative;
   left: 12.5px;
   down: 50px;
-  
-    
 }
 
 .content {
@@ -61,7 +86,6 @@ body {
 .sticky + content {
     padding-top: 102px;
 }
-
 
 
 
