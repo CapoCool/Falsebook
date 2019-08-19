@@ -1,5 +1,10 @@
 <?php
+// this points to the config.php file which
+//creates a connection and checks it.
 
+
+
+//$$$$$$     Commented for testing config.php   $$$$$$$
 
 //create db connection
 $conn = new mysqli("localhost", "root", "password", "sys");
@@ -9,6 +14,7 @@ if ($conn->connect_error){
     die ("Connection failed: " . $conn->connect_error);
 }
 
+//$$$$$$     Commented for testing config.php   $$$$$$$$
 
 
 if (isset($_POST['email']) != "" || ($_POST['password']) != '' || ($_POST['first'] != '' || ($_POST['last']) !='')){
