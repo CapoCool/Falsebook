@@ -27,7 +27,6 @@ body {
 </head>
 
 <body>
-<h1>THIS IS DROPBOX FOLDER!!!</h1>
 <div class="container">
   <div class="jumbotron">
     <center><h1>Falsebook</h1></center>
@@ -37,9 +36,9 @@ body {
 
     <div class="">
       <h3 style="color:white;"><center>Login</center></h3>
-	<form action="">
+	<form action="verify.php">
 	<h5 style="color:white;"><center>Username/Email:</center></h5>
-	<center><input type="text" name="username" value=""></center>
+	<center><input type="text" name="email" value=""></center>
 	<center><h5 style="color:white;">Password:<br></h5></center>
 	<center><input type="text" name="password" value=""></center>
 	<center><br><input type="submit" value="Submit"></br></center>
@@ -52,6 +51,8 @@ body {
       <a href="#">About</a>
    </p>
 </footer>
-   		
+<?php
+
+?>
 </body>
 </html>
